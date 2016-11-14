@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="m_team_entities" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/m_team_entities" Description="m_team_entities">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="team_name">社長室</Field>
+          <Field Name="team_ID">000</Field>
+          <Field Name="team_level">0</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="child_teams">001|002</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">営業本部</Field>
+          <Field Name="team_ID">001</Field>
+          <Field Name="team_level">1</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">000</Field>
+          <Field Name="child_teams">003|004|005</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">開発本部</Field>
+          <Field Name="team_ID">002</Field>
+          <Field Name="team_level">1</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">000</Field>
+          <Field Name="child_teams">006|007</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">マーケティング部</Field>
+          <Field Name="team_ID">003</Field>
+          <Field Name="team_level">2</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">001</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">事業開発部</Field>
+          <Field Name="team_ID">004</Field>
+          <Field Name="team_level">2</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">001</Field>
+          <Field Name="child_teams">008</Field>
+          <Field Name="team_members">11;#;#12</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">BtoB営業部</Field>
+          <Field Name="team_ID">005</Field>
+          <Field Name="team_level">2</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">001</Field>
+          <Field Name="child_teams">009|010</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">テクニカルサポート部</Field>
+          <Field Name="team_ID">006</Field>
+          <Field Name="team_level">2</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">002</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">ソリューション開発部</Field>
+          <Field Name="team_ID">007</Field>
+          <Field Name="team_level">2</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">002</Field>
+          <Field Name="child_teams">011|012|013</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">サービス開発チーム</Field>
+          <Field Name="team_ID">008</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">004</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">東京営業チーム</Field>
+          <Field Name="team_ID">009</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">005</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">福岡営業チーム</Field>
+          <Field Name="team_ID">010</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">005</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">SIチーム</Field>
+          <Field Name="team_ID">011</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">007</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">東京チーム</Field>
+          <Field Name="team_ID">012</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">007</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+        <Row>
+          <Field Name="team_name">福岡チーム</Field>
+          <Field Name="team_ID">013</Field>
+          <Field Name="team_level">3</Field>
+          <Field Name="team_manager">11</Field>
+          <Field Name="parent_team">007</Field>
+          <Field Name="team_members">11</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,22 @@
+﻿/* hiPlace custom styles below */
+.btn-link {
+    font-weight:600;
+    color: #ffffff;
+}
+
+.btn-link:focus,.btn-link:hover{
+    color:#7c5223;
+    text-decoration:underline;
+    background-color:transparent
+}
+
+.popover-title {
+    color: navy;
+    font-size: 14px;
+    font-weight:600;
+}
+
+.popover-content {
+    color: black;
+    font-size: 12px;
+}
